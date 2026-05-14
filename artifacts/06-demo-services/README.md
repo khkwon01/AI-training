@@ -1,0 +1,26 @@
+# 06-demo-services: 데모 서비스 만들기
+
+앞에서 배운 Python, GitHub, AI, AWS를 모두 연결해서 실제 동작하는 작은 서비스를 만든다.
+
+## 학습 순서
+
+| 파일 | 내용 |
+|------|------|
+| `ai-train-service-chapter-01-getting-started.md` | 메모 서비스 처음부터 만들기 (5개 함수 + 메뉴 루프) |
+| `ai-train-service-workbook-01-planning.md` | 서비스 기획 워크북 (기능 정의, 구조 설계) |
+| `ai-train-service-workbook-02-implementation.md` | 서비스 구현 워크북 (단계별 코딩) |
+| `ai-train-service-note-01-sequence.md` | 구현 순서 참조 노트 |
+| `ai-train-service-checklist-01-progress.md` | 진행 상황 체크리스트 |
+
+## 예제 코드 시리즈
+
+메모 관리 서비스를 기능별로 단계적으로 추가한 예제 코드.
+
+| 파일 | 추가된 기능 |
+|------|------------|
+| `ai-train-service-code-01.md` | 기본 함수 구조 |
+| `ai-train-service-code-02.md` | 리스트 저장 추가 |
+| `ai-train-service-code-03.md` | 목록 출력 추가 |
+| `ai-train-service-code-04.md` | 삭제 기능 추가 |
+| `ai-train-service-code-05.md` | JSON 파일 저장 추가 |
+| `ai-train-service-code-06.md` | 검색 기능 추가 |

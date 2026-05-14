@@ -1,5 +1,10 @@
 # database
 
+Legacy example content. This folder is not the primary active track set for the current beginner AI-coding curriculum project.
+
+- Current active tracks live under `tracks/`
+- This folder can still be reused later as a subject-specific teaching example
+- Backlog: [database/backlog.md](/Users/kihyuk.kwon/라쿠텐심포니/개인/프로젝트/AI-training/database/backlog.md)
 
 기초 개념 → 모델링 → SQL → 트랜잭션/정합성 → 성능/운영 → 최신 이슈 순서로 설계했어요.
 
