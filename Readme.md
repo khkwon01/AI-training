@@ -228,20 +228,20 @@ python3 scripts/launch_agent.py uninstall
 
 ## Current Track Definitions
 
-- Track index: [tracks/README.md](/Users/kihyuk.kwon/라쿠텐심포니/개인/프로젝트/AI-training/tracks/README.md)
-- Research backlog: [tracks/research/backlog.md](/Users/kihyuk.kwon/라쿠텐심포니/개인/프로젝트/AI-training/tracks/research/backlog.md)
-- Python backlog: [tracks/python/backlog.md](/Users/kihyuk.kwon/라쿠텐심포니/개인/프로젝트/AI-training/tracks/python/backlog.md)
-- GitHub backlog: [tracks/github/backlog.md](/Users/kihyuk.kwon/라쿠텐심포니/개인/프로젝트/AI-training/tracks/github/backlog.md)
-- AI backlog: [tracks/ai/backlog.md](/Users/kihyuk.kwon/라쿠텐심포니/개인/프로젝트/AI-training/tracks/ai/backlog.md)
-- Development backlog: [tracks/development/backlog.md](/Users/kihyuk.kwon/라쿠텐심포니/개인/프로젝트/AI-training/tracks/development/backlog.md)
-- AWS backlog: [tracks/aws/backlog.md](/Users/kihyuk.kwon/라쿠텐심포니/개인/프로젝트/AI-training/tracks/aws/backlog.md)
-- Daily review backlog: [tracks/daily-review/backlog.md](/Users/kihyuk.kwon/라쿠텐심포니/개인/프로젝트/AI-training/tracks/daily-review/backlog.md)
+- Track index: [tracks/README.md](tracks/README.md)
+- Research backlog: [tracks/research/backlog.md](tracks/research/backlog.md)
+- Python backlog: [tracks/python/backlog.md](tracks/python/backlog.md)
+- GitHub backlog: [tracks/github/backlog.md](tracks/github/backlog.md)
+- AI backlog: [tracks/ai/backlog.md](tracks/ai/backlog.md)
+- Development backlog: [tracks/development/backlog.md](tracks/development/backlog.md)
+- AWS backlog: [tracks/aws/backlog.md](tracks/aws/backlog.md)
+- Daily review backlog: [tracks/daily-review/backlog.md](tracks/daily-review/backlog.md)
 
 ## Current Educational Artifacts
 
-- Curriculum blueprint: [ai-train-curriculum-blueprint.md](/Users/kihyuk.kwon/라쿠텐심포니/개인/프로젝트/AI-training/artifacts/ai-train-curriculum-blueprint.md)
-- Module 01: [ai-train-module-01-ai-workflow-and-verification.md](/Users/kihyuk.kwon/라쿠텐심포니/개인/프로젝트/AI-training/artifacts/ai-train-module-01-ai-workflow-and-verification.md)
-- Module 02: [ai-train-module-02-github-ai-review-workflow.md](/Users/kihyuk.kwon/라쿠텐심포니/개인/프로젝트/AI-training/artifacts/ai-train-module-02-github-ai-review-workflow.md)
-- Module 03: [ai-train-module-03-python-ai-draft-correction.md](/Users/kihyuk.kwon/라쿠텐심포니/개인/프로젝트/AI-training/artifacts/ai-train-module-03-python-ai-draft-correction.md)
-- Module 04: [ai-train-module-04-aws-validation.md](/Users/kihyuk.kwon/라쿠텐심포니/개인/프로젝트/AI-training/artifacts/ai-train-module-04-aws-validation.md)
-- Orchestration model: [ai-harness-orchestration-model.md](/Users/kihyuk.kwon/라쿠텐심포니/개인/프로젝트/AI-training/artifacts/ai-harness-orchestration-model.md)
+- Curriculum blueprint: [artifacts/00-curriculum/ai-train-curriculum-blueprint.md](artifacts/00-curriculum/ai-train-curriculum-blueprint.md)
+- AI workflow: [artifacts/03-ai-basics/ai-train-ai-chapter-01-workflow-and-verification.md](artifacts/03-ai-basics/ai-train-ai-chapter-01-workflow-and-verification.md)
+- GitHub AI review: [artifacts/02-github/ai-train-github-chapter-03-ai-review-workflow.md](artifacts/02-github/ai-train-github-chapter-03-ai-review-workflow.md)
+- Python AI draft correction: [artifacts/03-ai-basics/ai-train-ai-chapter-02-draft-correction.md](artifacts/03-ai-basics/ai-train-ai-chapter-02-draft-correction.md)
+- AWS validation: [artifacts/05-aws-deploy/ai-train-aws-chapter-01-validation.md](artifacts/05-aws-deploy/ai-train-aws-chapter-01-validation.md)
+- Orchestration model: [artifacts/_internal/ai-train-curriculum-harness-model.md](artifacts/_internal/ai-train-curriculum-harness-model.md)
