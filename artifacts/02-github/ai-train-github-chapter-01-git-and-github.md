@@ -69,6 +69,8 @@ xcode-select --install
 
 Git을 처음 쓸 때 이름과 이메일을 한 번 설정해야 한다. commit 기록에 누가 작업했는지 표시되기 때문이다.
 
+`--global` 옵션은 "이 컴퓨터의 모든 Git 프로젝트에 적용"한다는 뜻이다. 한 번만 설정하면 모든 프로젝트에서 쓰인다.
+
 ```bash
 git config --global user.name "내 이름"
 git config --global user.email "내이메일@example.com"

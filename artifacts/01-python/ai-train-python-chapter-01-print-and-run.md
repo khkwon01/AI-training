@@ -227,6 +227,27 @@ print("배우고 싶은 것: Python")
 다음 장에서는 **변수**를 배운다. 변수는 값을 이름 붙여 저장해 두는 방법이다.
 `print()` 안에 직접 글자를 쓰는 대신, 변수에 저장한 값을 출력하는 법을 배운다.
 
+## 전체 Python 학습 순서 안내
+
+이 장은 Python의 시작점이다. 전체 챕터는 아래 순서로 이어진다.
+
+| 챕터 | 주제 |
+|------|------|
+| 01 | print와 실행 ← 지금 여기 |
+| 02 | 변수 |
+| 03 | 자료형 (int, str, bool) |
+| 04 | 파일과 JSON |
+| 05 | 디버깅 |
+| 06~10 | 프로젝트 구조, 환경, 예외, venv |
+| 11 | 조건문 (if/elif/else) |
+| 12 | 반복문 (for/while) |
+| 13 | 함수 (def, return) |
+| 14 | class와 object |
+| 15 | module과 import |
+| 16 | 터미널/실행버튼/디버그 비교 |
+
+전체 학습 지도: [ai-train-curriculum-python-map.md](../../00-curriculum/ai-train-curriculum-python-map.md)
+
 ---
 
 ## 참고 자료

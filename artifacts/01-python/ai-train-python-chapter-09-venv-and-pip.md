@@ -117,3 +117,32 @@ pip freeze > requirements.txt
 1. 왜 프로젝트마다 환경을 나누면 좋을까?
 2. 다른 사람과 프로젝트를 공유할 때 왜 설치 목록이 필요할까?
 3. 가상환경을 쓰지 않으면 어떤 일이 생길 수 있을까?
+
+---
+
+## 더 알아보기: uv (선택 사항)
+
+`uv`는 2024년부터 많이 쓰이는 빠른 Python 패키지 관리 도구다. `pip`와 `venv`를 따로 쓰는 대신 하나로 처리한다.
+
+초보자는 `pip`와 `venv`를 먼저 익히고, 익숙해지면 `uv`를 써보는 것이 좋다.
+
+```bash
+# uv 설치 (Mac/Linux)
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# 새 프로젝트 시작
+uv init my_project
+cd my_project
+
+# 패키지 추가 (pip install 대신)
+uv add requests
+
+# 실행 (venv 활성화 없이도 가능)
+uv run python main.py
+```
+
+| 항목 | pip + venv | uv |
+|------|-----------|-----|
+| 속도 | 보통 | 매우 빠름 |
+| 명령어 수 | 여러 개 | 적음 |
+| 초보자 권장 | 먼저 배우기 | 나중에 시도 |

@@ -4,26 +4,28 @@ Git과 GitHub를 배우고 VS Code와 연결하는 방법을 익힌다.
 
 ## 학습 순서
 
-### GitHub 기초 챕터
+| 파일 | 내용 |
+|------|------|
+| [ai-train-github-chapter-01-git-and-github.md](ai-train-github-chapter-01-git-and-github.md) | Git 설치, 초기 설정, GitHub 계정, clone |
+| [ai-train-github-chapter-02-add-commit-push.md](ai-train-github-chapter-02-add-commit-push.md) | add, commit, push, git status, git log |
+| [ai-train-github-chapter-03-ai-review-workflow.md](ai-train-github-chapter-03-ai-review-workflow.md) | AI review workflow, PR 기반 협업 흐름 |
+| [ai-train-github-chapter-04-vscode-github-connect.md](ai-train-github-chapter-04-vscode-github-connect.md) | VS Code Source Control UI, 계정 연결 |
+| [ai-train-github-chapter-05-branch-and-pr.md](ai-train-github-chapter-05-branch-and-pr.md) | branch 생성, PR 만들기, merge |
+| [ai-train-github-chapter-06-merge-conflict.md](ai-train-github-chapter-06-merge-conflict.md) | conflict 표시 읽기, VS Code 해결, 예방 습관 |
+| [ai-train-github-chapter-07-issue-tracking.md](ai-train-github-chapter-07-issue-tracking.md) | issue 생성, branch 연결, Closes #번호 자동 close |
+| [ai-train-github-chapter-08-pr-review-guide.md](ai-train-github-chapter-08-pr-review-guide.md) | Files changed 읽기, 줄 코멘트, AI 코드 PR 체크리스트 |
+
+## 실습 및 참고 자료
 
 | 파일 | 내용 |
 |------|------|
-| `ai-train-github-chapter-01-git-and-github.md` | Git 설치, 초기 설정, GitHub 계정, clone |
-| `ai-train-github-chapter-02-add-commit-push.md` | add, commit, push, git status, git log |
-| `ai-train-github-chapter-03-ai-review-workflow.md` | AI review workflow, PR 기반 협업 |
-| `ai-train-github-chapter-04-vscode-github-connect.md` | VS Code Source Control, GitHub 계정 연결, UI로 commit/push |
+| [ai-train-github-walkthrough-01-browser.md](ai-train-github-walkthrough-01-browser.md) | 브라우저에서 Issue → PR 흐름 따라하기 |
+| [ai-train-github-workbook-01.md](ai-train-github-workbook-01.md) | GitHub 실습 워크북 |
+| [ai-train-github-lab-01-ai-review.md](ai-train-github-lab-01-ai-review.md) | AI review 실습 랩 |
+| [ai-train-github-cue-note-01-screen.md](ai-train-github-cue-note-01-screen.md) | 화면 위치 빠른 참조 노트 |
 
-### 실습 및 참고 자료
-
-| 파일 | 내용 |
-|------|------|
-| `ai-train-github-walkthrough-01-browser.md` | 브라우저에서 Issue → PR 흐름 따라하기 |
-| `ai-train-github-workbook-01.md` | GitHub 실습 워크북 |
-| `ai-train-github-lab-01-ai-review.md` | AI review 실습 랩 |
-| `ai-train-github-cue-note-01-screen.md` | 화면 빠른 참조 노트 |
-
-### 교사용
+## 교사용
 
 | 파일 | 내용 |
 |------|------|
-| `ai-train-github-teacher-note-01.md` | 교사용 노트 |
+| [ai-train-github-teacher-note-01.md](ai-train-github-teacher-note-01.md) | 교사용 노트 |
