@@ -202,7 +202,21 @@ Python 코드를 AWS Lambda에 올리고 검증한다.
 
 ## 설계 문서
 
+### 커리큘럼 전체 설계
+
 | 파일 | 내용 |
 |------|------|
-| [커리큘럼 청사진](ai-train-curriculum-blueprint.md) | 전체 교육 목표와 원칙 |
-| [Python 학습 지도](ai-train-curriculum-python-map.md) | Python 챕터 상세 안내 |
+| [커리큘럼 청사진](ai-train-curriculum-blueprint.md) | 전체 교육 목표, 대상, 원칙 |
+
+### 영역별 학습 지도
+
+각 파트의 상세 순서, 학습 팁, 자주 막히는 지점을 담은 안내 문서다.
+
+| 파일 | 해당 파트 | 내용 |
+|------|----------|------|
+| [Python 학습 지도](ai-train-curriculum-python-map.md) | Part 1~2 | VS Code 설정 + Python 챕터 상세 순서 |
+| [GitHub 학습 지도](ai-train-curriculum-github-map.md) | Part 3 | Git 기초 → VS Code 연결 → branch/PR → AI 리뷰 |
+| [AI 도구 학습 지도](ai-train-curriculum-ai-map.md) | Part 4 | AI 원칙 → 도구 설치 → 프롬프트 → 검증/보안 |
+| [Vibe Coding 학습 지도](ai-train-curriculum-vibe-coding-map.md) | Part 5 | vibe coding 개념 → 루프 → 실전 워크플로우 |
+| [AWS 배포 학습 지도](ai-train-curriculum-aws-map.md) | Part 6 | 배포 개념 → Lambda → URL → 보안 → 운영 |
+| [실전 서비스 학습 지도](ai-train-curriculum-demo-services-map.md) | Part 7 | 터미널 서비스 → 테스트 → Lambda → 자동 배포 |
