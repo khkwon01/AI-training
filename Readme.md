@@ -106,7 +106,7 @@ The learner should not need to understand the internal harness to use the materi
 
 1. Every mission must fit in about one hour.
 2. Every mission belongs to one `track` and one `lane`.
-3. Naming and setting namespaces must use the `ai-train-` prefix where the syntax allows it.
+3. Artifact file naming follows folder-prefixed conventions (e.g. `python-chapter-01.md`, `github-chapter-01.md`).
 4. Shell environment variables use `AI_TRAIN_` because hyphens are not valid there.
 5. Research findings must be reflected back into curriculum and content tracks continuously.
 6. Every day ends with a review mission before the next day starts.
@@ -239,9 +239,9 @@ python3 scripts/launch_agent.py uninstall
 
 ## Current Educational Artifacts
 
-- Curriculum blueprint: [artifacts/00-curriculum/ai-train-curriculum-blueprint.md](artifacts/00-curriculum/ai-train-curriculum-blueprint.md)
-- AI workflow: [artifacts/03-ai-basics/ai-train-ai-chapter-01-workflow-and-verification.md](artifacts/03-ai-basics/ai-train-ai-chapter-01-workflow-and-verification.md)
-- GitHub AI review: [artifacts/02-github/ai-train-github-chapter-03-ai-review-workflow.md](artifacts/02-github/ai-train-github-chapter-03-ai-review-workflow.md)
-- Python AI draft correction: [artifacts/03-ai-basics/ai-train-ai-chapter-02-draft-correction.md](artifacts/03-ai-basics/ai-train-ai-chapter-02-draft-correction.md)
-- AWS validation: [artifacts/05-aws-deploy/ai-train-aws-chapter-01-validation.md](artifacts/05-aws-deploy/ai-train-aws-chapter-01-validation.md)
-- Orchestration model: [artifacts/_internal/ai-train-curriculum-harness-model.md](artifacts/_internal/ai-train-curriculum-harness-model.md)
+- Curriculum blueprint: [artifacts/00-curriculum/curriculum-blueprint.md](artifacts/00-curriculum/curriculum-blueprint.md)
+- AI workflow: [artifacts/03-ai-basics/ai-chapter-01-workflow-and-verification.md](artifacts/03-ai-basics/ai-chapter-01-workflow-and-verification.md)
+- GitHub AI review: [artifacts/02-github/github-chapter-03-ai-review-workflow.md](artifacts/02-github/github-chapter-03-ai-review-workflow.md)
+- Python AI draft correction: [artifacts/03-ai-basics/ai-chapter-02-draft-correction.md](artifacts/03-ai-basics/ai-chapter-02-draft-correction.md)
+- AWS validation: [artifacts/05-aws-deploy/aws-chapter-01-validation.md](artifacts/05-aws-deploy/aws-chapter-01-validation.md)
+- Orchestration model: [artifacts/_internal/curriculum-harness-model.md](artifacts/_internal/curriculum-harness-model.md)

@@ -22,4 +22,4 @@
 환경+기초       저장소 관리      AI 도구 연결      AI 협업 코딩        배포 실습          서비스 완성
 ```
 
-전체 커리큘럼 지도: [00-curriculum/ai-train-curriculum-master-index.md](00-curriculum/ai-train-curriculum-master-index.md)
+전체 커리큘럼 지도: [00-curriculum/curriculum-master-index.md](00-curriculum/curriculum-master-index.md)
