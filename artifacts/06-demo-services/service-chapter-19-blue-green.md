@@ -1,3 +1,5 @@
+# Chapter 19: Blue-Green 배포
+
 ## 이 장에서 배우는 것
 
 - Lambda 블루-그린 배포가 무엇인지 이해한다

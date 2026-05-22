@@ -111,12 +111,15 @@ Python 언어의 핵심 개념을 순서대로 익힌다. **이 파트를 마치
 | 32 | [Chapter 32: context managers](../01-python/python-chapter-32-context-managers.md) | with, __enter__/__exit__ |
 | 33 | [Chapter 33: decorators](../01-python/python-chapter-33-decorators.md) | @decorator, functools, 실전 패턴 |
 | 34 | [Chapter 34: dataclasses](../01-python/python-chapter-34-dataclasses.md) | @dataclass, field, 비교/정렬 |
+| 35 | [Chapter 35: 동시성](../01-python/python-chapter-35-concurrency.md) | threading, asyncio, concurrent.futures |
+| 36 | [Chapter 36: 정규표현식](../01-python/python-chapter-36-regex.md) | re 모듈, 패턴 매칭, 실전 활용 |
 
 **심화 연습 자료**
 
 | 파일 | 내용 |
 |------|------|
 | [class+module 실습](../01-python/python-practice-class-and-module.md) | 도서관·은행 시스템 구현 + 모듈 분리 연습 |
+| [uv 패키지 관리자 실습](../01-python/python-practice-uv-package-manager.md) | pip/venv 대신 uv 사용하기 — 설치, 프로젝트 생성, 패키지 관리 |
 
 ---
 
@@ -147,6 +150,9 @@ Python 언어의 핵심 개념을 순서대로 익힌다. **이 파트를 마치
 | [Chapter 12: Actions Secrets](../02-github/github-chapter-12-actions-secrets.md) | Secrets 관리 |
 | [Chapter 13: solo vs 팀 워크플로우](../02-github/github-chapter-13-workflow-solo-vs-team.md) | Git 전략 비교 |
 | [Chapter 14: Copilot Workspace](../02-github/github-chapter-14-copilot-workspace.md) | Copilot 팀 설정 |
+| [Chapter 15: matrix 빌드와 병렬 테스팅](../02-github/github-chapter-15-matrix-builds.md) | matrix strategy, 다중 OS/버전 병렬 테스트 |
+| [Chapter 16: Dependabot 보안 관리](../02-github/github-chapter-16-dependabot.md) | 의존성 자동 업데이트, 보안 취약점 알림 |
+| [Chapter 17: Project Board와 Milestone](../02-github/github-chapter-17-project-boards.md) | 칸반 보드, 마일스톤, 팀 진행 관리 |
 | [Chapter 18: Claude Code로 PR 만들기](../02-github/github-chapter-18-claude-code-pr-workflow.md) | Claude Code 터미널 → 브랜치 → diff 검토 → PR 생성 실전 흐름 |
 | [Chapter 19: 보안 스캐닝](../02-github/github-chapter-19-security-scanning.md) | GitHub Advanced Security, CodeQL, 코드 스캐닝 자동화 |
 | [워크북](../02-github/github-workbook-01.md) | GitHub 실습 워크북 |
@@ -187,7 +193,9 @@ VS Code에 AI를 연결하고 AI 활용 기본 습관을 익힌다.
 | [Chapter 18: AI 메모리 패턴](../03-ai-basics/ai-chapter-18-memory-patterns.md) | 세션 메모리 |
 | [Chapter 19: AI 버그 수정](../03-ai-basics/ai-chapter-19-fixing-ai-bugs.md) | AI 버그 읽고 고치기 |
 | [Chapter 20: AI 문서화 자동화](../03-ai-basics/ai-chapter-20-documentation-automation.md) | README, docstring, API 문서 자동 생성 |
-| [Chapter 22: AI 코드 품질 루브릭](../03-ai-basics/ai-chapter-22-code-quality-rubric.md) | AI 코드 평가 5기준 체크리스트 |
+| [Chapter 21: 웹훅과 Lambda 자동화](../03-ai-basics/ai-chapter-21-webhook-automation.md) | 웹훅 개념, Lambda로 이벤트 처리 자동화 |
+| [Chapter 22: AI 코드 품질 루브릭](../03-ai-basics/ai-chapter-22-quality-rubric.md) | AI 코드 평가 5기준, 체크리스트 활용법 |
+| [Chapter 23: AI 문서화](../03-ai-basics/ai-chapter-23-documentation.md) | README, docstring, API 문서 자동화 |
 | [초안 수정 랩](../03-ai-basics/ai-lab-01-draft-correction.md) | AI 초안 수정 실습 |
 
 ---
@@ -243,6 +251,7 @@ Python 코드를 AWS Lambda에 올리고 검증한다.
 | [Chapter 12: SQS 기초](../05-aws-deploy/aws-chapter-12-sqs-basics.md) | 메시지 큐 |
 | [Chapter 13: CloudFormation](../05-aws-deploy/aws-chapter-13-cloudformation.md) | IaC 기초 |
 | [Chapter 18: Function URL 우선 배포 가이드](../05-aws-deploy/aws-chapter-18-function-url-guide.md) | Function URL vs API Gateway 비교, 초보자 첫 배포 권장 방법 |
+| [Chapter 19: SAM CLI로 Lambda 배포하기](../05-aws-deploy/aws-chapter-19-sam-cli-deployment.md) | 코드로 인프라 관리, sam init/build/deploy 전체 흐름 |
 | [검증 실습](../05-aws-deploy/aws-practice-01-validation.md) | Lambda 테스트 및 로그 확인 |
 | [검증 한 페이지 요약](../05-aws-deploy/aws-quick-ref-01-validation.md) | 배포 후 체크리스트 |
 | [콘솔 참조 노트](../05-aws-deploy/aws-cue-note-01-console.md) | AWS 콘솔 빠른 참조 |
@@ -271,8 +280,13 @@ Python 코드를 AWS Lambda에 올리고 검증한다.
 | [Chapter 14: Feature Flag](../06-demo-services/service-chapter-14-feature-flags.md) | 기능 플래그 |
 | [Chapter 15: API 버저닝](../06-demo-services/service-chapter-15-api-versioning.md) | 버전 관리 전략 |
 | [Chapter 16: 캐싱 전략](../06-demo-services/service-chapter-16-caching-strategy.md) | Lambda 캐싱, cold start 최적화 |
+| [Chapter 17: 입력 검증과 살균](../06-demo-services/service-chapter-17-input-validation.md) | 사용자 입력 검증, XSS/Injection 방어 |
+| [Chapter 18: 관측 가능성 패턴](../06-demo-services/service-chapter-18-observability.md) | 로그·메트릭·트레이스 통합 모니터링 |
+| [Chapter 19: Blue-Green 배포](../06-demo-services/service-chapter-19-blue-green.md) | 무중단 배포 전략, 트래픽 전환 |
+| [Chapter 20: Zero Downtime 배포](../06-demo-services/service-chapter-20-zero-downtime.md) | 롤링 업데이트, 배포 안전망 구축 |
 | [기획 워크북](../06-demo-services/service-workbook-01-planning.md) | 기능 정의, 구조 설계 |
 | 3 | [구현 워크북](../06-demo-services/service-workbook-02-implementation.md) | 단계별 구현 가이드 |
+| | [E2E 통합 실습 워크시트](../06-demo-services/service-worksheet-e2e-ai-to-lambda.md) | Issue → Claude Code → PR → Lambda 배포 전체 흐름 실습 |
 
 **예제 코드 시리즈**
 

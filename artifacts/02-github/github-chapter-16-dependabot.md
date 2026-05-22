@@ -1,3 +1,5 @@
+# Chapter 16: Dependabot 보안 관리
+
 ## 이 장에서 배우는 것
 
 - Dependabot이 무엇인지, 왜 필요한지 이해한다

@@ -1,3 +1,5 @@
+# Chapter 17: Project Board와 Milestone
+
 ## 이 장에서 배우는 것
 
 - GitHub Project Board(프로젝트 보드)가 무엇인지, 왜 쓰는지 이해한다

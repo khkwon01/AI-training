@@ -1,3 +1,5 @@
+# Chapter 23: AI 문서화 자동화
+
 ## 이 장에서 배우는 것
 
 - AI 도구(Claude, GitHub Copilot 등)를 사용해 코드 문서를 자동으로 작성하는 방법
