@@ -4,7 +4,8 @@
 - [서비스 구현 방향성](#1-서비스-구현-방향성)
 - [모놀리식 vs 마이크로서비스](#2-모놀리식-vs-마이크로서비스)
 - [마이크로서비스의 장단점](#3-마이크로서비스의-장단점)
-- [DevOps](#4-DevOps-설명)
+- [DevOps 설명](#4-DevOps-설명)
+- [CI/CD](#5-CI/CD-(지속적인-통합과-배포))
 
 ---
 
@@ -57,6 +58,8 @@
 <img width="765" height="100" alt="image" src="https://github.com/user-attachments/assets/70ebfae1-537b-42f4-931d-14ea80459c92" />
 
 ---
+
+## 5. CI/CD (지속적인 통합과 배포)
 
 
 
