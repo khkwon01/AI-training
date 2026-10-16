@@ -12,7 +12,7 @@
 
 요즘 서비스는 통합 서비스 개발(Monolithic) 방식에서 점점 기능을 분리하여 개별 서비스 형태(Microservices)로 발전하는 추세입니다.
 
-<img width="452" height="140" alt="마이크로서비스 구조 예시" src="https://github.com/user-attachments/assets/166c0a81-2e38-440e-ac5d-581d60b7da58" />
+<img width="747" height="236" alt="image" src="https://github.com/user-attachments/assets/37398b7d-504e-4b70-b6dd-ae345c726b22" />
 
 - 마이크로서비스: 작은 기능들을 조합하여 개별 업무 서비스로 구성
 - 각 서비스는 독립적으로 개발, 배포, 확장이 가능
@@ -54,7 +54,8 @@
 - 목표 : 소프트웨어 개발 속도를 높이고, 배포 빈도를 늘리며, 안정성을 향상
 - 핵심 요소 : 자동화, 협업, 지속적인 피드백
 
-<img width="456" height="66" alt="image" src="https://github.com/user-attachments/assets/ef982c40-f86a-40c5-a766-fa37675f717f" />
+<img width="765" height="100" alt="image" src="https://github.com/user-attachments/assets/70ebfae1-537b-42f4-931d-14ea80459c92" />
+
 
 
 
