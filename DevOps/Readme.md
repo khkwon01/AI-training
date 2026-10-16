@@ -4,6 +4,6 @@
 
 <img width="452" height="140" alt="image" src="https://github.com/user-attachments/assets/166c0a81-2e38-440e-ac5d-581d60b7da58" />
 
-### 마이크로서비스 (작은 기능들을 조합하여 개별 업무 서비스 구성)
+- 마이크로서비스 (작은 기능들을 조합하여 개별 업무 서비스 구성)
   
 
